@@ -1,0 +1,37 @@
+html {
+  font-size: 55%;
+}
+header .container {
+  width: 300px;
+  padding: 20px 11px 20px 11px;
+  margin-left: 8px;
+}
+.logo img {
+  width: 50px;
+  height: 55px;
+  margin-right: 10px;
+}
+.logo h3 {
+  display: block;
+  visibility: visible;
+  font-size: 2.2rem;
+}
+.aboutBox {
+  padding: 0px;
+  flex-direction: column-reverse;
+}
+.aboutContent {
+  padding: 8px;
+  width: 310px;
+}
+.aboutImg {
+  padding: 0px;
+  margin-right: 0px;
+  margin-top: -65px;
+  margin-left: 24px;
+}
+.footBox {
+  width: 146px;
+  height: 195px;
+  margin: 2px;
+}

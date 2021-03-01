@@ -1,0 +1,76 @@
+html {
+  font-size: 50%;
+}
+header .container {
+  width: 500px;
+}
+.container h2 {
+  font-size: 2.8rem;
+
+  margin-bottom: 10px;
+}
+.container h1 {
+  font-size: 3.6rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 10px;
+  text-shadow: 0px 0px 1px black;
+}
+.aboutBox {
+  padding: 0px 18px 0px 18px;
+}
+.aboutImg {
+  padding: 0px;
+  margin-right: 10px;
+}
+
+.aboutImg img {
+  width: 300px;
+  display: block;
+  margin: 50px auto;
+}
+.aboutContent {
+  width: 400px;
+}
+.aboutContent h3 {
+  font-size: 3.4rem;
+}
+.aboutContent p {
+  font-size: 1.7rem;
+}
+.section_tag h2 {
+  font-size: 3.4rem;
+}
+.section_tag p {
+  font-size: 2rem;
+}
+.service_box {
+  display: inline-block;
+  width: 245px;
+  padding: 15px;
+  margin: 20px;
+}
+.service_info h2 {
+  font-size: 2.6rem;
+}
+.service_info p {
+  font-size: 1.7rem;
+}
+.service_info h3 {
+  font-size: 1.5rem;
+}
+.virus {
+  top: 10%;
+  left: 3%;
+}
+.box_3 {
+  height: 250px;
+  margin-right: 30px;
+  padding: 7px;
+  border-radius: 7px;
+}
+.footBox address {
+  font-size: 1.8rem;
+}
+a.support {
+  font-size: 1.8rem;
+}

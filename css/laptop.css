@@ -1,0 +1,14 @@
+html {
+  font-size: 55%;
+}
+.container {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 3px 10px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+}
+.aboutImg img {
+  width: 425px;
+  display: block;
+}

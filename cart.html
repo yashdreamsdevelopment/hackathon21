@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/cart.css">
+    <title>Farms to Dish | cart</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <img src="./images/logo.png" alt="farms'tofolks logo">
+            <h3> FARMS' TO FOLKS</h3>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="#" class="active">CART</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="display">
+        <div class="shoppingList p-2">
+            <div class="heading">
+                <h1 class="fs-1 my-3">shopping List</h1>
+            </div>
+            <hr style="width: 50%; height: 5px;">
+            <div class="list">
+                <h2> <span class="cartLength">0</span> ITEM </h2>
+                <hr style="width: 30%; height: 5px;">
+
+                <div class="cartIterate">
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="orderSum p-2 my-5" style="position: sticky;">
+            <div class="heading">
+                <h1 class="fs-1 my-3 mb-3">Order Summary</h1>
+                <hr style="width: 100%; height: 2px;">
+
+                <div class="flex">
+                    <h1>Cost : </h1>
+                    <h1>₹ <span id="cost" class="fs-1"></span></h1>
+                </div>
+                <div class="flex">
+                    <h1>Shipping : </h1>
+                    <h1>₹ <span id="ship">10</span> </h1>
+                </div>
+                <hr style="width: 100%; height: 2px;">
+                <div class="flex">
+                    <h1 style="color: green;">Total : </h1>
+                    <h1 style="color:green;">₹ <span id="total"></span></h1>
+                </div>
+                <div class="flex">
+                    <h1 style="color: #be7e0765;">Saving : </h1>
+                    <h1 style="color: #be7e0765;">₹ <span id="saving"></span></h1>
+                </div>
+                <div class="flex">
+                    <a href="./payment.html" class="btn btn-warning fs-2 my-5"
+                        style="width: 100%; height: 50px;">CHECKOUT</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="./js/finalCart.js"></script>
+</body>
+
+</html>
